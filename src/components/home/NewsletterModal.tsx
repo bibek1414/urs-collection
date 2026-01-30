@@ -65,7 +65,8 @@ export default function NewsletterModal() {
               id="newsletter"
               src={images.newsletter}
               fallbackSrc={images.newsletter}
-              fill
+              height={500}
+              width={500}
               className="w-full h-full object-cover"
               alt="Welcome offer"
             />

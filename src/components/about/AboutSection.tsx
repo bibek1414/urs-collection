@@ -57,7 +57,8 @@ export default function AboutSection() {
             fallbackSrc={images.about}
             alt="Atelier Detail"
             className="w-full h-full object-cover grayscale"
-            fill
+            height={500}
+            width={500}
           />
         </motion.div>
 
