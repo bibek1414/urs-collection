@@ -7,6 +7,16 @@ const nextConfig = {
                 hostname: 'images.unsplash.com',
                 pathname: '/**',
             },
+             {
+                protocol: 'https',
+                hostname: '*.builder-api.nepdora.com',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'builder-api.nepdora.com',
+                pathname: '/**',
+            },
             {
                 protocol: 'https',
                 hostname: '*.nepdora.baliyoventures.com',
@@ -17,9 +27,14 @@ const nextConfig = {
                 hostname: 'nepdora.baliyoventures.com',
                 pathname: '/**',
             },
-             {
+            {
                 protocol: 'https',
-                hostname: 'builder-api.nepdora.com',
+                hostname: 'avatars.githubusercontent.com',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'plus.unsplash.com',
                 pathname: '/**',
             }
         ],
