@@ -16,6 +16,11 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'nepdora.baliyoventures.com',
                 pathname: '/**',
+            },
+             {
+                protocol: 'https',
+                hostname: 'builder-api.nepdora.com',
+                pathname: '/**',
             }
         ],
     },
