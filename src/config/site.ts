@@ -1,8 +1,6 @@
 import tenantData from "../../tenant.json";
 const TENANT_NAME = tenantData.tenantName;
 export const siteConfig = {
-  name: "Verin",
-  description: "Verin - Timeless Luxury Essentials",
   get apiBaseUrl() {
     return (
       process.env.NEXT_PUBLIC_API_URL ||
